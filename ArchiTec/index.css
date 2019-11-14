@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    display: block;
+    float: left;
+    position: relative;
+    top: 10%;
+    left: 0%;
+}
+
+.list {
+    float: right;
+    padding: 5px;
+    list-style: none;
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+.nav-bar ul li {
+    margin-right: 8px;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    font-family: Helvetica;
+    font-weight: lighter;
+
+}
+
+.nav-bar ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: darkslateblue;
+    border-right: solid grey 1px;
+
+}
+
+.nav-bar ul li a:hover {
+    color: white;
+    background-color: lightgrey;
+}
+
+.container {
+    width: 100%;
+    height: 830px;
+    background-image: url(/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text h1 {
+    position: relative;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 50px;
+    color: #34495e;
+}
+
+.our-company h3 {
+    margin-top: 60px;
+    padding: 80px;
+    text-align: center;
+    font-size: 28px;
+    color: #40739e;
+    font-family: Helvetica;
+    line-height: 50px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.8);
+    /* Black background with 0.5 opacity */
+    color: #dcdde1;
+    /* Grey text */
+}
+
+#button {
+    text-align: center;
+    margin: 50px;
+}
+
+.but1 {
+    font-size: 30px;
+    background-color: #1c2830c7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.but1 a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.but1:hover {
+    background-color: #1c2830ec;
+}
+
+.slide {
+	margin-left: -30px;
+	margin-top: 15px;
+	position: absolute;
+}
+
+.slide a {
+	color: #fff;
+	font-size: 36px;
+	padding-right: 15px;
+}
+
+.open{
+	position: absolute;
+	top: -50px;
+	margin: 10px;
+	font-size: 30px;
+	padding: 20px 0px;
+	width: 100%;
+    color: black;
+    display: none;
+}
+
+.close {
+	margin: 10px;
+	padding-top: 8px;
+	padding-right: 4px;
+	float: right;
+	font-size: 30px;
+    color: rgb(175, 175, 175);
+    display: none;
+}
+
+
+/*################MEDIA###############*/
+ @media(max-width: 700px) {
+    .list {
+        font-size: 18px;
+    }  
+    
+    .container {
+        height: 600px;
+     }
+         
+    .our-company h3 {
+         font-size: 25px;
+         line-height: 25px;
+         margin-top: 10px;
+         padding: 30px;
+     }
+
+    #button {
+         margin: 10px;
+     }
+
+    .text h1 {
+         font-size: 30px;
+         padding-top: 60px; 
+     }
+    .logo {
+        width: 200px;
+        height: 50px;
+        left: 0
+    }
+ }
