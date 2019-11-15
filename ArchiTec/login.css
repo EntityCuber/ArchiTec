@@ -142,3 +142,9 @@
     background-color: lightgray;
     color: black;
 }
+
+@media (max-width: 768px) {
+    .text h1 {
+        font-size: 35px;
+    }
+}
