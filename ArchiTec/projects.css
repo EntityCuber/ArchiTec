@@ -88,7 +88,7 @@
 
     .container {
         width: 100%;
-        margin-left: 8px;
+        text-align: center;
     }
         .list {
         font-size: 18px;
